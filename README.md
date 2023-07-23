@@ -25,6 +25,18 @@ git clone https://github.com/Hai567/event-calendar/tree/BackEnd BE
 cd BE
 ```
 
+#### Environment Variable
+
+Go to https://console.cloud.google.com/apis/credentials and create a new project. Then navigate to "Credentials" tab, click "CREATE CREDENTIALS" and choose "OAuth client ID". After that choose "Web application" for the "Application type". Feel free to enter whatever you want in those sections> however, for the "Authorized redirect URIs", enter "http://localhost:3000/api/user/auth/google/callback".
+When all those steps above are done, create a new file named ".env"
+
+```
+GOOGLE_CLIENT_ID = Client/ID/VALUE
+GOOGLE_CLIENT_SECRET = Client/secret/VALUE
+GOOGLE_CALLBACK_URL = http://localhost:3000/api/user/auth/google/callback
+SESSION_SECRET = WHAT/EVER/YOU/WANT
+```
+
 #### Install the pakages
 
 ```

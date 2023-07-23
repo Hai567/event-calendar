@@ -14,8 +14,7 @@ mongoose.connect('mongodb://127.0.0.1:27017/eventCalendarApp')
         console.log("Error encountered while connecting to DB", err)
     })
 
-// Use Session
-
+// Use Session and Passport
 app.use(passport.initialize());
 app.use(session({
     secret: process.env.SESSION_SECRET,
