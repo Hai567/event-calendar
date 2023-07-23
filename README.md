@@ -2,42 +2,42 @@
 
 ## Instruction
 
-## BackEnd
+#### BackEnd
 
 To run this, first install MongoDB (https://www.mongodb.com/docs/manual/administration/install-community/), NodeJS (https://nodejs.org/en/download), MongoCompass (Optional) (https://www.mongodb.com/products/compass)
 
-### Start the DB
+##### Start the DB
 
 ```
 cd ~
 mongod
 ```
 
-### Clone the repo
+##### Clone the repo
 
 ```
 git clone https://github.com/Hai567/event-calendar/tree/BackEnd BE
 ```
 
-### Navigate to cloned folder
+##### Navigate to cloned folder
 
 ```
 cd BE
 ```
 
-### Install the pakages
+#### Install the pakages
 
 ```
 npm install
 ```
 
-### Run the programme
+#### Run the programme
 
 ```
 node app.js
 ```
 
-### Hooks
+#### Hooks
 
 ```
 // [GET] To get all users
@@ -46,9 +46,13 @@ http://localhost:3000/api/super-users/all-users
 http://localhost:3000/api/user/auth/sign-in
 // [POST] To sign up
 http://localhost:3000/api/user/auth/sign-up
+// [GET] To sign in using Google
+http://localhost:3000/api/user/auth/google
+// [GET] To sign out
+http://localhost:3000/api/user/auth/logout
 ```
 
-### Required sign up form keys:
+#### Required sign up form keys:
 
 (It must be typed exactly the same)
 
@@ -62,7 +66,7 @@ password
 avatar (Optional)
 ```
 
-### Required sign in form keys:
+#### Required sign in form keys:
 
 (It must be typed exactly the same)
 
