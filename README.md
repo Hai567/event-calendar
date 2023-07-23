@@ -73,5 +73,6 @@ password
 
 ## Example (Using Postman)
 
-![sign up example](https://github.com/Hai567/event-calendar/tree/BackEnd)
-![sign in example](https://github.com/Hai567/event-calendar/tree/BackEnd)
+![get all users example](https://github.com/Hai567/event-calendar/tree/BackEnd/instruction-imgs/get-all-usres-example.png)
+![sign up example](https://github.com/Hai567/event-calendar/tree/BackEnd/instruction-imgs/sign-up-example.png)
+![sign in example](https://github.com/Hai567/event-calendar/tree/BackEnd/instruction-imgs/sign-in-example.png)
