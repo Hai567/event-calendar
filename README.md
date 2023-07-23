@@ -50,7 +50,7 @@ http://localhost:3000/api/user/auth/sign-up
 
 ### Required sign up form keys:
 
-(It must be type exactly the same)
+(It must be typed exactly the same)
 
 ```
 email
@@ -64,7 +64,7 @@ avatar (Optional)
 
 ### Required sign in form keys:
 
-(It must be type exactly the same)
+(It must be typed exactly the same)
 
 ```
 email
